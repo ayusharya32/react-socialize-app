@@ -1,0 +1,5 @@
+export const STORED_AUTH_TOKEN = 'storedAuthToken'
+export const USER_FEED_POSTS = 'user_feed'
+export const USER_PROFILE_POSTS = 'user_profile_posts'
+export const LIST_TYPE_FOLLOWERS = 'list_type_followers'
+export const LIST_TYPE_FOLLOWING = 'list_type_following'
