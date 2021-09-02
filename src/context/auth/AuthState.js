@@ -8,7 +8,7 @@ import AuthContext from './authContext'
 import authReducer from './authReducer'
 
 function AuthState(props) {
-    axios.defaults.baseURL = 'http://192.168.43.74:3000'
+    axios.defaults.baseURL = 'https://serversocializeapp.herokuapp.com'
 
     const initialState = {
         authToken: localStorage.getItem(STORED_AUTH_TOKEN),
